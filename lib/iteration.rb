@@ -1,6 +1,6 @@
 def join_ingredients(src)
   array_1 = [['pepperoni', 'sausage'], ['green olives', 'green peppers'], ['onions', 'pineapple']]
-    puts ('I love ' + array_1[0] + ' and ' + array_1[1] + ' on my pizza')
+    puts ('I love ' + array[0] + ' and ' + array[1] + ' on my pizza')
   end
   
     
