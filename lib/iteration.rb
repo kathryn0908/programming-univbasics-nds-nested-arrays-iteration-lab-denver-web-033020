@@ -1,9 +1,9 @@
 def join_ingredients(src)
-  new_array=[]
+  join_ingredients=[]
   row_index=0 
-  while row_index<array.count do 
+  while row_index<array_1.count do 
     element_index=0 
-    while element_index < array[row_index].count do 
+    while element_index < array_1[row_index].count do 
     puts join_ingredients<< `I love #{[row_index][0][element_index][0]} and #{[row_index][0][element_index][1]} on my pizza`
     element_index+=1 
   end
