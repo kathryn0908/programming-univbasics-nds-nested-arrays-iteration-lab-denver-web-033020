@@ -5,6 +5,7 @@ def join_ingredients(src)
     new_array << ("I love #{src[i][0]} and #{src[i][1]} on my pizza")
     i += 1
   end
+  new_array
   
     
     
