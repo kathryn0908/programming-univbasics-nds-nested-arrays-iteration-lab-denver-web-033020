@@ -2,7 +2,7 @@ def join_ingredients(src)
   new_array=[]
   i=0 
   while i < src.length do 
-    new_array << 
+    new_array << ("I love #{src[i][0]} and #{src[i][1]} on my pizza")
   end
   
     
