@@ -1,10 +1,10 @@
 def join_ingredients(src)
   join_ingredients=[]
   row_index=0 
-  while row_index<array_1.count do 
+  while row_index<Array.count do 
     element_index=0 
-    while element_index < array_1[row_index].count do 
-    puts join_ingredients<< `I love #{array_1[row_index][0][element_index][0]} and #{array_1[row_index][0][element_index][1]} on my pizza`
+    while element_index < Array[row_index].count do 
+    puts join_ingredients<< `I love #{Array[row_index][0][element_index][0]} and #{Array[row_index][0][element_index][1]} on my pizza`
     element_index+=1 
   end
   row_index+=1 
