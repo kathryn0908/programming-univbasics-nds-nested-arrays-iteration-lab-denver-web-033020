@@ -12,7 +12,7 @@ def find_greater_pair(src)
   new_array=[]
   i=0 
   while i < src.count do 
-    new_array << src[i][0].max
+    new_array << src[i].max
     i += 1 
   end 
   new_array
