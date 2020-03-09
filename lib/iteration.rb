@@ -1,5 +1,5 @@
 def join_ingredients(src)
-    puts join_ingredients << "I love src[row_index][0] and src[1] on my pizza"
+    puts join_ingredients << 'I love src[row_index][0] and src[1] on my pizza"
   end
   
     
