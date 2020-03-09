@@ -2,7 +2,7 @@ def join_ingredients(src)
   new_array=[]
   i=0 
   while i < src.length do 
-    puts 
+    new_array << 
   end
   
     
