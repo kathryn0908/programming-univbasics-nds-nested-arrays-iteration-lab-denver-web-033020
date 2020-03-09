@@ -25,6 +25,10 @@ def total_even_pairs(src)
     element_index=0 
     while element_index < src[row_index].count do 
       total += 
+      element_index += 1 
+    end 
+    row_index +=1 
+  end
   
   # src will be an array of [ [number1, number2], ... [numberN, numberM] ]
   # if both numbers in the pair are even, then add both those numbers to the
