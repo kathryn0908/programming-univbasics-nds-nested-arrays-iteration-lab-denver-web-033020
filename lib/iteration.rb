@@ -1,11 +1,16 @@
 def join_ingredients(src)
-  new_array=[]
-  i=0 
-  while i < src.count do 
-    new_array << ("I love #{src[i][0]} and #{src[i][1]} on my pizza")
-    i += 1
+  join_ingredients=[]
+  row_index=0 
+  while row_index<src.count do 
+    element_index=0 
+    while element_index < src[row_index].count do 
+    puts join_ingredients << ("I love src[element_index][0] and src[element_index][1] on my pizza")
+    element_index+=1 
   end
-  new_array
+  row_index+=1 
+end
+join_ingredients
+
   
     
     
